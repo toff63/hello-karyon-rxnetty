@@ -27,6 +27,7 @@ public class HealthCheck implements HealthCheckHandler {
     @Override
     public int getStatus() {
         logger.info("Health check called.");
+        logger.info("This is static, need to change it!");
         return 200;
     }
 
